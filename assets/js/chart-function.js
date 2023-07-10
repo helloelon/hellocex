@@ -5,9 +5,9 @@
 
     function chart(){
       /* Layout 1 Token Chat */
-      var colors = ['#7d7d7d', '#d47c0c', '#f0931e', '#f6aa35', '#fbbd18'];
-      var labels = ["«Bounty»  campaign", "Advisors", "Founders and Team", "Reserved Funding", "Distributed to Community"];
-      var data = [10, 10, 5, 5, 70];
+      var colors = ['#e8ca04', '#d47c0c', '#f0931e', '#f6aa35', '#fbbd18'];
+      var labels = ["Repurchases", "Cooperation fee", "Material costs", "Publish paper", "Others"];
+      var data = [90, 5, 1, 1, 3];
       var bgColor = colors;
       var dataChart = {
         labels: labels,
@@ -66,9 +66,9 @@
       legendHolder.innerHTML = legend;
 
        /* Layout 2 Token Chat */
-      var layout2colors = ['#7d7d7d', '#d47c0c', '#f0931e', '#f6aa35', '#fbbd18'];
-      var layout2labels = ["65% Crowdsale", "10% Team", "5% Advisors and Partners", "5% Beauty, Airdrop and Referrals", "15% Reserved for Agate Ecosystem"];
-      var layout2data = [65, 10, 5, 5, 15];
+      var layout2colors = ['#d7bd68', '#d47c0c', '#f0931e', '#f6aa35', '#fbbd18','#fbc73b','#d47c0c'];
+      var layout2labels = ["50% Airdrop", "15% Marketing", "10% CEX", "10% Development", "5% Team", "5% IDO", "5% Reserve"];
+      var layout2data = [50, 15, 10, 10, 5, 5, 5];
       var layout2data2 = [10, 20, 30, 30, 20];
       var bgColor = layout2colors;
 
